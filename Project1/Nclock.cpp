@@ -1,7 +1,7 @@
   #include "NCLOCK.h"
   
   Clock::Clock(){
-    t_ime = 7.00
+    t_ime = 7.00;
   }
   Clock::~Clock(){}
   void Clock::add1Min(){
