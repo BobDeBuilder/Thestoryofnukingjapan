@@ -22,7 +22,7 @@ int main()
 
 	while (bJapanIsNotNuked)
 	{
-		p1.displayName(); cout << " decided to go for a walk one nice August day at around 7:00 AM\nIn Hiroshima, Japan\n";
+		p1.displayName(); cout << " decided to go for a walk one nice August day to look for some fresh pussy at around 7:00 AM\nIn Hiroshima, Japan\n";
 		cin >> sCurrentAction;
 		if (sCurrentAction == "something")
 		{
