@@ -12,9 +12,10 @@ int main()
 	cout << "Please enter your name\n:> ";
 	cin >> name;
 	p1.setName(name);
-	cout << "There once was this guy named "; p1.displayName(); cout << endl;
+	cout << "There once was this guy named "; p1.displayName(); cout << "." << endl;
 	while (bJapanIsNotNuked)
 	{
+		p1.displayName(); cout << " decided to go for a walk one nice August day at around 7:00 AM\nIn Hiroshima, Japan\n";
 		cin >> sCurrentAction;
 		if (sCurrentAction == "something")
 		{
