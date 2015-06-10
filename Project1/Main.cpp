@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 #include "PLAYER.h"
 using namespace std;
 
@@ -8,7 +7,12 @@ bool bJapanIsNotNuked = true;
 
 int main()
 {
-	cout << "Initial text/story here" << endl;
+	string name;
+	Player p1;
+	cout << "Please enter your name\n:> ";
+	cin >> name;
+	p1.setName(name);
+	cout << "There once was this guy named "; p1.displayName(); cout << endl;
 	while (bJapanIsNotNuked)
 	{
 		cin >> sCurrentAction;
