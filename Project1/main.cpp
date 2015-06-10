@@ -10,7 +10,7 @@ int main()
 {
 	string name;
 	
-	Clock nuke();	//clock starts at 7.00 by default, this can be changed if needed manually in Nclock.cpp
+	Clock nuke;	//clock starts at 7.00 by default, this can be changed if needed manually in Nclock.cpp
 	Player p1;
 	
 	cout << "Please enter your name\n:> ";
