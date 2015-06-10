@@ -11,3 +11,9 @@
     int Player::getChoice(){
         return choice;
     }
+    void Player::setName(std::string name){
+        this->name = name;
+    }
+    void Player::displayName(){
+        std::cout << name;
+    }
