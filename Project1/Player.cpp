@@ -1,5 +1,5 @@
 #include "PLAYER.h"
-
+#include <iostream>
     Player::Player(){
         choice = 0;
     }
