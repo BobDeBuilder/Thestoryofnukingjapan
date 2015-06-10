@@ -8,7 +8,10 @@ bool bJapanIsNotNuked = true;
 
 int main()
 {
-	cout << "Initial text/story here" << endl;
+	string name;
+	Player p1;
+	p1.setName(name);
+	cout << "There once was this guy named" << endl;
 	while (bJapanIsNotNuked)
 	{
 		cin >> sCurrentAction;
