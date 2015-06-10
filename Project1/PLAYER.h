@@ -13,6 +13,7 @@ public:
     void setChoice(int choice);
     void setName(std::string name);
     void displayName();
+    std::string getName();
     int getChoice();
 };
 
