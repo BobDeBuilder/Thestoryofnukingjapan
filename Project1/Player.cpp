@@ -2,6 +2,7 @@
 #include <iostream>
     Player::Player(){
         choice = 0;
+        name = "";
     }
     Player::~Player(){
     }
