@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#inlcude "PLAYER.h"
+#include "PLAYER.h"
 using namespace std;
 
 string sCurrentAction;
