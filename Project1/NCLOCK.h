@@ -3,10 +3,15 @@
 
 class Clock{
 private:
-int time;
+  int t_ime;
 public:
-Clock
-
+  Clock();
+  ~Clock();
+  void add1Min();
+  void add5Min();
+  void add10Min();
+  void add30Min();
+  int getTime();
 };
 
 
