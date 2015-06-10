@@ -6,7 +6,7 @@
 class Player{
 private:
     int choice; //use this like if there is a menu and you need to choose a number to select an option
-    std::string; 
+    std::string name; 
 public:
     Player();
     ~Player();
