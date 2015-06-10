@@ -3,7 +3,7 @@
 
 class Clock{
 private:
-  int t_ime;
+  float t_ime;
 public:
   Clock();
   ~Clock();
